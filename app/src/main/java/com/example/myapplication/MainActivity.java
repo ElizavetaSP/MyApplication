@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+    //comment
     private Button btn;
     private TextView tv;
     private int counter = 0;
@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("AAAA", "onCreate");
         btn = findViewById(R.id.button);
-        tv = findViewById(R.id.textView);
+        tv = findViewById(R.iid.textView);
         btn.setOnClickListener(view -> {
 
             counter++;
