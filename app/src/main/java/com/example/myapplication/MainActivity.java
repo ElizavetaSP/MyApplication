@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("AAAA", "onCreate");
         btn = findViewById(R.id.button);
-        tv = findViewById(R.iid.textView);
+        tv = findViewById(R.id.textView);
         btn.setOnClickListener(view -> {
 
             counter++;
